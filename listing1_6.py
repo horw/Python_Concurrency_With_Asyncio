@@ -1,14 +1,17 @@
 import threading
 import time
 
-def print_fib(nimber: int) -> None:
+
+def print_fib(number: int) -> None:
     def fib(n: int) -> int:
         if n == 1:
             return 0
         elif n == 2:
             return 1
         else:
-            return fib(n-1) + fib(n-2)
+            return fib(n - 1) + fib(n - 2)
+    fib(number)
+
 
 def fibs_with_threads():
     fortieth_thread = threading.Thread(target=print_fib,
@@ -20,6 +23,7 @@ def fibs_with_threads():
 
     fortieth_thread.join()
     forty_first_thread.join()
+
 
 start_threads = time.time()
 
