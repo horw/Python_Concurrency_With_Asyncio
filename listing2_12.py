@@ -9,6 +9,6 @@ async def main():
         print(result)
     except asyncio.exceptions.TimeoutError:
         print('Got a timeout!')
-        print(f'Was the task called?')
+        print(f'Was the task called? {delay_task.cancelled()}')
 
 asyncio.run(main())
