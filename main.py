@@ -28,7 +28,16 @@
 # import listing2_24
 
 # import listing3_1
-import chapter_3.listing3_2
+# import chapter_3.listing3_2
+# import chapter_3.listing3_3
+# import chapter_3.listing3_4
+# import chapter_3.listing3_5
+# import chapter_3.listing3_7
+# import chapter_3.listing3_8
+# import chapter_3.listing3_9
+import chapter_3.listing3_10
+
+
 
 
 if __name__ == '__main__':
