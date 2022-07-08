@@ -28,7 +28,7 @@
 # import listing2_24
 
 # import listing3_1
-import listing3_2
+import chapter_3.listing3_2
 
 
 if __name__ == '__main__':
