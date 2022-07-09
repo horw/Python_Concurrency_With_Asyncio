@@ -28,8 +28,8 @@ async def connection_listener(server_socket, loop: AbstractEventLoop):
         connection, address = await loop.sock_accept(server_socket)
         connection.setblocking(False)
         print(f"Got a connection from {address}")
-        echo_tasks = asyncio.create_task(echo(connection, loop))
-        echo_tasks.append(echo_tasks)
+        echo_task = asyncio.create_task(echo(connection, loop))
+        echo_tasks.append(echo_task)
 
 
 class GracefulExit(SystemExit):
@@ -54,14 +54,16 @@ async def main():
     server_socket = socket.socket()
     server_socket.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
 
-    server_address = ('127.0.0.1', 8000)
+    server_address = ('0.0.0.0', 8000)
     server_socket.setblocking(False)
     server_socket.bind(server_address)
     server_socket.listen()
-
+    print('rh')
     for signame in ['SIGINT', 'SIGTERM']:
         loop.add_signal_handler(getattr(signal, signame), shutdown)
-
+    print(
+        'hah'
+    )
     await connection_listener(server_socket, loop)
 
 
