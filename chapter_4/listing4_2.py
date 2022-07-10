@@ -18,4 +18,4 @@ async def main():
         print(f'Status for {url} was {status}')
 
 
-asyncio.run(main())
+asyncio.get_event_loop().run_until_complete(main())
