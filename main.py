@@ -37,7 +37,15 @@
 # import chapter_3.listing3_9
 # import chapter_3.listing3_10
 # import chapter_4.listing4_1
-import chapter_4.listing4_2
+# import chapter_4.listing4_2
+# import chapter_4.listing4_3
+# import chapter_4.listing4_4
+# import chapter_4.listing4_5
+# import chapter_4.listing4_6
+# import chapter_4.listing4_7
+# import chapter_4.listing4_8
+import chapter_4.listing4_9
+
 
 
 if __name__ == '__main__':
