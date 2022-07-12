@@ -44,9 +44,15 @@
 # import chapter_4.listing4_6
 # import chapter_4.listing4_7
 # import chapter_4.listing4_8
-import chapter_4.listing4_9
-
-
+# import chapter_4.listing4_9
+# import chapter_4.listing4_10
+# import chapter_4.listing4_11
+# import chapter_4.listing4_12
+# import chapter_4.listing4_13
+# import chapter_2.listing2_17
+# import chapter_4.listing4_14
+# import chapter_4.listing4_15
+import chapter_4.listing4_16
 
 if __name__ == '__main__':
     pass
