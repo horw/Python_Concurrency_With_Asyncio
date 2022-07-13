@@ -52,7 +52,14 @@
 # import chapter_2.listing2_17
 # import chapter_4.listing4_14
 # import chapter_4.listing4_15
-import chapter_4.listing4_16
+# import chapter_4.listing4_16
+# import chapter_5.listing5_1
+# import chapter_5.listing5_3
+# import chapter_5.listing5_4
+# import chapter_5.listing5_5
+# import chapter_5.listing5_6
+import chapter_5.listing5_7
+
 
 if __name__ == '__main__':
     pass
