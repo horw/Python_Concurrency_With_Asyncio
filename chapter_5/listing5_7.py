@@ -24,6 +24,7 @@ async def main():
     async with asyncpg.create_pool(
         host='127.0.0.1',
         port=5432,
+        database='products',
         user='postgres',
         password='pgpwd4habr',
         min_size=6,
@@ -33,4 +34,4 @@ async def main():
                              query_product(pool))
 
 
-asyncio.get_event_loop().run_until_complete(main())
+# asyncio.get_event_loop().run_until_complete(main())
