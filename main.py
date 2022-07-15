@@ -1,3 +1,4 @@
+import asyncio
 #import listing1_1
 #import listing1_2
 #import listing1_3
@@ -68,14 +69,32 @@
 # import chapter_5.listing5_14
 # import chapter_5.listing5_15
 # import chapter_5.listing5_16
-import chapter_5.listing5_17
-
-
+# import chapter_5.listing5_17
+# import chapter_6.listing6_1
+# import chapter_6.listing6_2
+# import chapter_6.listing6_3
+# import chapter_6.listing6_4
+# import chapter_6.listing6_5
+# import chapter_6.listing6_6
+# import chapter_6.listing6_7
+# import chapter_6.listing6_9
+# import chapter_6.listing6_10
+# import chapter_6.listing6_11
+import chapter_6.listing6_13
 
 
 
 
 if __name__ == '__main__':
     pass
-    #print('Start Main ....')
-    #listing1_4.list1_4()
+    # chapter_6.listing6_1.listing_()
+    # chapter_6.listing6_2.listing_()
+    # chapter_6.listing6_4.listing_()
+    # chapter_6.listing6_5.listing_()
+    # asyncio.run(chapter_6.listing6_7.listing_(partion_size=60000))
+    # asyncio.run(chapter_6.listing6_9.main_(partition_size=60000))
+    asyncio.run(chapter_6.listing6_13.main_())
+    # chapter_6.listing6_10.listing_()
+    # chapter_6.listing6_11.listing_()
+    # print('Start Main ....')
+    # listing1_4.list1_4()
