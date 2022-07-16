@@ -82,10 +82,19 @@ import asyncio
 # import chapter_6.listing6_11
 # import chapter_6.listing6_13
 # import chapter_6.listing6_14
-import chapter_6.listing6_15
-
-
-
+# import chapter_6.listing6_15
+# import chapter_7.listing7_1
+# import chapter_7.listing7_2
+# import chapter_7.listing7_3
+# import chapter_7.listing7_4
+# import chapter_7.listing7_5
+# import chapter_7.listing7_6
+# import chapter_7.listing7_7
+# import chapter_7.listing7_8
+# import chapter_7.listing7_9
+# import chapter_7.listing7_10
+# import chapter_7.listing7_11
+import chapter_7.listing7_12
 
 if __name__ == '__main__':
     pass
@@ -97,7 +106,7 @@ if __name__ == '__main__':
     # asyncio.run(chapter_6.listing6_9.main_(partition_size=60000))
     # asyncio.run(chapter_6.listing6_13.main_())
     # asyncio.run(chapter_6.listing6_14.main_(partiotion_size=60000))
-    asyncio.get_event_loop().run_until_complete(chapter_6.listing6_15.main_())
+    # asyncio.get_event_loop().run_until_complete(chapter_6.listing6_15.main_())
     # chapter_6.listing6_10.listing_()
     # chapter_6.listing6_11.listing_()
     # print('Start Main ....')
