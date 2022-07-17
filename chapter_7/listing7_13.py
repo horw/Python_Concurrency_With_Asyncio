@@ -31,7 +31,9 @@ class StressTest:
 
     async def _get_url(self, session: ClientSession, url: str):
         try:
+
             await session.get(url)
+            print('ok')
         except Exception as e:
             print(e)
         self._completed_requests = self._completed_requests + 1
@@ -41,5 +43,10 @@ class StressTest:
 
     async def _make_requests(self):
         async with ClientSession() as session:
-            reqs = [self._get_url(session, self._url) for _ in range(self._total_request)]
+            print('prepare')
+            print(self._total_requests)
+            print(range(self._total_requests))
+            #print([self._get_url(session, 'https://bkrs.info/slovo') for _ in range(5)])
+            reqs = [self._get_url(session, "https://bkrs.info/") for _ in range(10000)]
+            print('starting .....')
             await asyncio.gather(*reqs)
