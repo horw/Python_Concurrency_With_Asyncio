@@ -1,6 +1,8 @@
 import asyncio
 from asyncio import StreamReader
 import sys
+from asyncio import AbstractEventLoop
+
 
 async def create_stdin_reader() -> StreamReader:
     stream_reader = asyncio.StreamReader()

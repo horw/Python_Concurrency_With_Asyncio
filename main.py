@@ -102,8 +102,11 @@ import asyncio
 # import chapter_7.listing7_19
 # import chapter_8.listing8_1
 # import chapter_8.listing8_3
-import chapter_8.listing8_4
-
+# import chapter_8.listing8_4
+# import chapter_8.listing8_12
+# import chapter_8.listing8_13
+# import chapter_9.listing9_1
+import chapter_9.listing9_2
 
 
 
