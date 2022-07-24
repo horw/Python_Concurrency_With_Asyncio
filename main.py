@@ -131,7 +131,12 @@ import asyncio
 # import chapter_12.listing12_3
 # import chapter_12.listing12_4
 # import chapter_12.listing12_5
-import chapter_12.listing12_6
+# import chapter_12.listing12_6
+# import chapter_12.listing12_7
+# import chapter_12.listing12_8
+# import chapter_12.listing12_9
+import chapter_12.listing12_10
+
 
 
 if __name__ == '__main__':
